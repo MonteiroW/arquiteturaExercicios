@@ -2,7 +2,9 @@ package data;
 
 import data.EmprestimoDTO;
 
+import java.time.LocalDateTime;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 public class DataPackage {
@@ -34,6 +36,17 @@ public class DataPackage {
 		return null;
 	}
 	
-	public LivroDTO buscarLivro(int idLivro) {}
+	public LivroDTO buscarLivro(int idLivro) {
+		return null;
+	}
+	
+	public List<EmprestimoDTO> buscaEmpLivrosNConcluidos(int idLivro){
+		return null;
+	}
+
+	public void armazenarEmprestimoLivro(int idLeitor, int idLivro, LocalDateTime now, Date prazo) {
+		// TODO Auto-generated method stub
+		
+	}
 
 }
